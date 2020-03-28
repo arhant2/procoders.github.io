@@ -540,4 +540,13 @@ footer .social a{
     .courses{
         width: 60vw;
     }
+    .courses-brief .image{
+      border-radius: 10px 10px 0 0;
+    }
+    
+    
+    .courses .content{
+      border-radius: 0 0 10px 10px;
+    
+    }
 }
