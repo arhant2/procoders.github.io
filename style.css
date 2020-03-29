@@ -241,7 +241,7 @@ footer{
         '. brand info helpful subscribe .'
         '. about info helpful subscribe .'
         '. contact info helpful subscribe .'
-        '. . social copy copy .';
+        '. social social copy copy .';
     background-color: #211f1f;
     color: white;
     font-size: 1.1rem;
@@ -357,6 +357,7 @@ footer .copy{
 }
 
 footer .social{
+    text-align: right;
     grid-area: social;
 }
 
@@ -479,6 +480,9 @@ footer .social a{
         position: static;
         top: 0;
         transform: translateY(0);
+    }
+    footer .social{
+        text-align: left;
     }
 }
 
